@@ -3,6 +3,9 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
+  for (var i = 0; i < 1; i++) {
+    console.log(array(i))
+  }
 }
 
 
