@@ -60,14 +60,14 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x == y
+  return x === y
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length == str2.length
+  return str1.length === str2.length
 }
 
 function menosQueNoventa(num) {
@@ -94,7 +94,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num % 2 == 0
+  return num % 2 === 0
 }
 
 function esImpar(num) {
@@ -146,11 +146,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) 
-    return "Es positivo"
+    return "Es positivo";
   else if (numero < 0)
-    return "Es negativo"
+    return "Es negativo";
   else
-    return false   
+    return false;
 }
 
 function agregarSimboloExclamacion(str) {
@@ -213,16 +213,8 @@ function esVocal(letra){
     return "Dato incorrecto";
     
  
-  if (letra == "a") 
-    return "Es vocal"
-  else if (letra == "e") 
-    return "Es vocal"
-  else if (letra == "i") 
-    return "Es vocal"
-  else if (letra == "o") 
-    return "Es vocal"
-  else if (letra == "u")  
-    return "Es vocal"
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
+    return "Es vocal";
   }  
 
 
