@@ -1,0 +1,25 @@
+Homework: Javascript IV
+Instrucciones
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos
+Propiedades
+Métodos
+Bucle for…in
+Notación de puntos vs notación de corchetes
+********************************************************************************************
+
+Objetos: son colecciones de propiedades, donde las propiedades son asociaciones entre un nombre (clave) y un valor.
+
+Métodos: cuando una propiedad en un objeto es una función, la llamamos método.
+
+Bucle for...in: nos permite recorrer todas las claves de un objeto. Por lo tanto también podemos acceder a los valores de cada una de esas claves, utilizando por ejemplo la notación de corchetes.
+Los objetos no tienen índices numéricos, por eso no podemos usar un for con una variable para recorrer las claves.
+
+Notación de puntos
+Notación de corchetes
+
+Ambas notaciones sirven para acceder, y también para asignar, a las propiedades de un objeto.
+Para ciertas operaciones en nuestro código, es más útil la notación con corchetes ya que nos permite hacer más cosas.
+
+

@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+
+Variables: son espacios de memoria que almacenan información que podremos utilizar en nuestro código. Javascript nos permite declararlas (definiendo su tipo de datos) o no. 
+Pueden ser de distintos tipos de datos como string, números, booleanas, null y undefined.
+
+Strings: el tipo de datos string es básicamente texto que puede almacenarse en variables o constantes, van encerrados entre comillas (simples o dobles)
+
+Funciones: agrupa código ejecutable que puede ser invocado luego y reutilizado para optimizar codificación.
+
+Declaraciones `if`: es un condicional que nos permite agregar lógica a nuestro código. Esto ejecuta distinto código según distintas condiciones. controla el flujo del porgrama.
+
+Valores booleanos: son valores para verdadero o falso, sirven para comparar condiciones o direccionar el flujo de programación.

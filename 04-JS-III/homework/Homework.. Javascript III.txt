@@ -1,0 +1,10 @@
+Homework: Javascript III
+Instrucciones
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Arrays
+
+Los arreglos son conjuntos o listas de elementos, que pueden ser de distintos tipos de datos. Números, string, otros arreglos, null, undefined, funciones, etc.
+Para acceder a sus elementos, se puede invocar el nombre del arreglo con el índice del elemento que se quiere obtener.
+Tienen propiedades que nos permiten saber por ejemplo la cantidad de elementos con arreglo.lenght
+Se les puede asignar o quitar elementos con distintos métodos como .push() y .pop() o .unshift() o .shift().

@@ -1,0 +1,30 @@
+Homework: Javascript II
+
+Instrucciones
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+for
+&&, ||, !
+
+
+
+El bucle for, sirve para repetir, tantas veces como se desee, un bloque de código.
+Consta de 3 partes:
+1) La variable para controlar la cantidad de repeticiones
+2) La condición de "frenado" que hará que nuestro bucle finalice.
+3) El paso, que va a determinar la manera de incrementar (avanzar) el valor de la variable.
+
+Operadores Lógicos
+Son como los matemáticos pero para tipos de datos booleanes (true o false)
+
+&& AND (y)
+El AND sirve para evaluar si dos condiciones se cumplen a la vez. Ej
+Si "se da tal cosa" y "si se da tal otra cosa" entonces hacer determinada cosa.
+
+|| OR (o)
+El OR sirve para evaluar si una de las dos condiciones se cumplen a la vez. Ej
+Si "se da tal cosa" o "si se da tal otra cosa" entonces hacer determinada cosa.
+
+! NOT (NO)
+EL NOT sirve para "invertir" el valor lógico de una condición.
+Ej si (1 < 2) es verdadero, entonces, !(1 < 2) será falso
+ y si (1 > 2) es falso, entonces !(1 > 2) será verdadero
