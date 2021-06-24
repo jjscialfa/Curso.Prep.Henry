@@ -1,0 +1,9 @@
+Homework: Javascript V
+Instrucciones
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+prototype
+Constructors (de Clases)
+
+Todos los objetos tienen una referencia a otro objeto, llamado prototipo. Este prototipo es el constructor del objeto. Toda propiedad definida en el prototipo es heredada por el objeto definido.
+
+Un constructor es una función que nos permite construir objetos. Se le dice también "fábrica de objetos".
