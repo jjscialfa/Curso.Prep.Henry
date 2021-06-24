@@ -1,0 +1,8 @@
+Homework: Javascript VI
+Instrucciones
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+Funciones Callback
+
+En JavaScript las funciones se pueden pasar a otras funciones como argumentos.
+También se puede retornarlas como resultado, guardarlas en variables y otras estructuras de datos. Esto se denomina FIRST CLASS FUNCTIONS.
+ 
