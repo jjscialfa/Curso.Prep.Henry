@@ -156,18 +156,38 @@
 // }
 // console.log(deleteAbc('abecedario'));
 
-function sortArray(arr) {
-  //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
-  //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
-  //Escribe tu código aquí
-  arr.sort(function(elementoActual, elementoSiguiente){
-    return elementoActual.length - elementoSiguiente.length;
-  })
-  return arr;
+// function sortArray(arr) {
+//   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
+//   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
+//   //Escribe tu código aquí
+//   arr.sort(function(elementoActual, elementoSiguiente){
+//     return elementoActual.length - elementoSiguiente.length;
+//   })
+//   return arr;
+// }
+
+// var array = ['You','are','beatiful','looking'];
+// var array = ['guindas333333', 'manzanas222', 'bananas'];
+
+// console.log(sortArray(array));
+// console.log(array.sort());
+var arreglo1 = [4,1,3,2,7];  
+var arreglo2 = [1,3,4,7,15] ;
+function buscoInterseccion(arreglo1, arreglo2){
+  //Existen dos arrays, cada uno con 5 números. A partir de ello, escribir una función que permita 
+  //retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
+  //Si no tienen elementos en común, retornar un arreglo vacío.
+  //Aclaración: los arreglos no necesariamente tienen la misma longitud
+  //Escribe tu código aquí  
+  var nuevoArreglo = [];
+  for (var i = 0; i < arreglo1.length; i++) {
+    for (var j = 0; j < arreglo2.length; j++) {
+      if (arreglo1[i] === arreglo2[j]) {
+        nuevoArreglo.push(arreglo1[i]);
+      }
+    }
+  }
+  nuevoArreglo.sort();
+  return nuevoArreglo;
 }
-
-var array = ['You','are','beatiful','looking'];
-var array = ['guindas333333', 'manzanas222', 'bananas'];
-
-console.log(sortArray(array));
-console.log(array.sort());
+console.log(buscoInterseccion(arreglo1,arreglo2));
