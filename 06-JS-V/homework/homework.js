@@ -47,7 +47,7 @@ function agregarStringInvertida() {
       str = str + this.charAt(i);
     }
     return str;
-  };
+  }
 }
 
 // ---------------------------------------------------------------------------//
@@ -70,6 +70,7 @@ function agregarStringInvertida() {
       this.domicilio = domicilio
       this.detalle = function() {
         return {
+          //ver acá las propiedades con letra capitalizada!
           Nombre: this.nombre,
           Apellido: this.apellido,
           Edad: this.edad,
@@ -83,7 +84,9 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-  var nuevaPersona = new Persona("Juan", "Perez", 22, "Saavedra 123");
+  //var nuevaPersona = new Persona("Juan", "Perez", 22, "Saavedra 123");
+  //console.log(nombre, apellido, edad, dir);
+  var nuevaPersona = new Persona(nombre, apellido, edad, dir);
   return nuevaPersona;
 }
   
@@ -91,6 +94,7 @@ function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
   Persona.prototype.datos = function() {
+    //console.log(this.nombre + ', ' + this.edad + ' años');
     return this.nombre + ', ' + this.edad + ' años';
   };  
 }
