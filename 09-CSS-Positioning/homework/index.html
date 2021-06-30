@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+    <!-- <head>        
+        <title>Propiedades: top, left, right y bottom</title>
+    </head>
+    <body>
+        <div>
+            <h1>Titulo del Body</h1>
+        </div>
+        <div>
+            <p>
+            Despues de haber definido nuestro método de posicionamiento, 
+            podemos usar las propiedades “top”, “left”, “right” y “bottom” 
+            para acomodar nuestro elemento. El valor que le des a cada uno 
+            determinará qué tan lejos del borde quedará nuestro elemento. 
+            Por ejemplo, si queremos que nuestro elemento esté en la esquina 
+            superior izquierda (con una posición fija), podemos usar lo siguiente:
+            </p>
+            <p>
+            Introducción a Flexbox
+            Introducido en CSS3, Flexbos es una nueva e interesante característica. La misma nos permite posicionar nuestros elementos en relación a su parent y entre ellos. Ya no necesitamos aplicar “hacks” para cosas como centrar elementos. Esto nos permite que el diseño “mobile-friendly” sea excelente y nos hace dedicar menos tiempo tratando de posicionar elementos como corresponde. Flexbox se puede complicar muy rápido, pero veremos los aspectos básicos a continuación.
+            </p>
+            <p>
+            “display: flex” e “inline-flex”
+            Como mencionamos anteriormente en la sección de la propiedad “display”, uno de los valores puede ser “flex”, esto hace que cualquier contenedor sea un “flex block”. También podemos usar “inline-flex” para hacer que el elemento sea “flex” e “inline”, aunque para la mayor parte del tiempo, usaremos simplemente “flex”.
+
+“justify-content” y “align-items”
+Ahora que nuestro contenedor (elemento) es “flex”, podemos imaginarlo como una grilla con columnas que van de izquierdo a derecha y filas que van de arriba a abajo. Podemos usar las propiedades “justify-content” y “align-items” para decirle al contenedor dónde queremos que estén los elementos en la grilla. En principio, “justify-content” aplicará al movimiento de izquierda a derecha (fila), y “align-items” lo hará de arriba a abajo (columna). Tenemos unas reglas que debemos aplicar a cada una de estas reglas:
+            </p>    
+            <p>
+center: centrará el elemento (o grupo de elementos) a lo largo de un eje en el que aplica esta regla.
+flex-start: Este es el valor por defecto de cada “flex box”, mostrará todos los elementos en un grupo al comienzo de una fila o columna.
+flex-end: es lo opuesto a flex-start, mostrará los elementos al final de un grupo al comienzo de una fila o columna.
+space-between: Esta regla espaciará uniformemente el elemento o los elementos a lo largo de la fila o columna. El primer elemento estará como flex-start y el último como flex-end.
+space-around: Similar a space-between, pero aplicará márgenes igualitarios entre cada elemento, por lo que ningún elemento estara directamente sobre el borde del contenedor.
+Ejemplo: si quisiésemos nuestros elementos centrados en el medio exacto de un “flex box”, usaríamos lo siguiente:
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+“flex-direction”
+Esta propiedad puede cambiar cómo el navegador interpreta justify-content (JC) y align-items (AI). El valor por defecto es “row” (fila), y esto funciona en la mayoría de los casos, pero algunas veces queremos cambiar cómo funciona la dirección del contenido.
+            </p>
+            <p>
+row: es la dirección por defecto. JC aplica de izquierda a derecha, AI aplica de arriba a abajo.
+column: Esto invertirá qué propiedad controla qué dirección. JC aplicará de arriba a abajo y AI de izquierda a derecha.
+row-reverse: Sólo invierte la dirección de JC de derecha a izquierda, no afecta a AI.
+column-reverse: Sólo invierte la dirección de AI de abajo a arriba, no afecta a JC.
+“align-self”
+Por último, cubriremos una propiedad más avanzada llamada “align-self”. La misma será aplicada a un elemento dentro del “flex box” del cual queremos separar el control de align-items. Si le damos la propiedad align-self, podemos colocarla en cualquier lugar a lo largo del eje de elementos de alineación que queramos. (Nota: NO existe justify-self, esta es la razón principal por la que los desarrolladores cambiarán la dirección de “flex”).
+            </p>
+            <p>
+                Despues de haber definido nuestro método de posicionamiento, 
+                podemos usar las propiedades “top”, “left”, “right” y “bottom” 
+                para acomodar nuestro elemento. El valor que le des a cada uno 
+                determinará qué tan lejos del borde quedará nuestro elemento. 
+                Por ejemplo, si queremos que nuestro elemento esté en la esquina 
+                superior izquierda (con una posición fija), podemos usar lo siguiente:
+                </p>
+                <p>
+                Introducción a Flexbox
+                Introducido en CSS3, Flexbos es una nueva e interesante característica. La misma nos permite posicionar nuestros elementos en relación a su parent y entre ellos. Ya no necesitamos aplicar “hacks” para cosas como centrar elementos. Esto nos permite que el diseño “mobile-friendly” sea excelente y nos hace dedicar menos tiempo tratando de posicionar elementos como corresponde. Flexbox se puede complicar muy rápido, pero veremos los aspectos básicos a continuación.
+                </p>
+                <p>
+                “display: flex” e “inline-flex”
+                Como mencionamos anteriormente en la sección de la propiedad “display”, uno de los valores puede ser “flex”, esto hace que cualquier contenedor sea un “flex block”. También podemos usar “inline-flex” para hacer que el elemento sea “flex” e “inline”, aunque para la mayor parte del tiempo, usaremos simplemente “flex”.
+    
+    “justify-content” y “align-items”
+    Ahora que nuestro contenedor (elemento) es “flex”, podemos imaginarlo como una grilla con columnas que van de izquierdo a derecha y filas que van de arriba a abajo. Podemos usar las propiedades “justify-content” y “align-items” para decirle al contenedor dónde queremos que estén los elementos en la grilla. En principio, “justify-content” aplicará al movimiento de izquierda a derecha (fila), y “align-items” lo hará de arriba a abajo (columna). Tenemos unas reglas que debemos aplicar a cada una de estas reglas:
+                </p>    
+                <p>
+    center: centrará el elemento (o grupo de elementos) a lo largo de un eje en el que aplica esta regla.
+    flex-start: Este es el valor por defecto de cada “flex box”, mostrará todos los elementos en un grupo al comienzo de una fila o columna.
+    flex-end: es lo opuesto a flex-start, mostrará los elementos al final de un grupo al comienzo de una fila o columna.
+    space-between: Esta regla espaciará uniformemente el elemento o los elementos a lo largo de la fila o columna. El primer elemento estará como flex-start y el último como flex-end.
+    space-around: Similar a space-between, pero aplicará márgenes igualitarios entre cada elemento, por lo que ningún elemento estara directamente sobre el borde del contenedor.
+    Ejemplo: si quisiésemos nuestros elementos centrados en el medio exacto de un “flex box”, usaríamos lo siguiente:
+    
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    “flex-direction”
+    Esta propiedad puede cambiar cómo el navegador interpreta justify-content (JC) y align-items (AI). El valor por defecto es “row” (fila), y esto funciona en la mayoría de los casos, pero algunas veces queremos cambiar cómo funciona la dirección del contenido.
+                </p>
+                <p>
+    row: es la dirección por defecto. JC aplica de izquierda a derecha, AI aplica de arriba a abajo.
+    column: Esto invertirá qué propiedad controla qué dirección. JC aplicará de arriba a abajo y AI de izquierda a derecha.
+    row-reverse: Sólo invierte la dirección de JC de derecha a izquierda, no afecta a AI.
+    column-reverse: Sólo invierte la dirección de AI de abajo a arriba, no afecta a JC.
+    “align-self”
+    Por último, cubriremos una propiedad más avanzada llamada “align-self”. La misma será aplicada a un elemento dentro del “flex box” del cual queremos separar el control de align-items. Si le damos la propiedad align-self, podemos colocarla en cualquier lugar a lo largo del eje de elementos de alineación que queramos. (Nota: NO existe justify-self, esta es la razón principal por la que los desarrolladores cambiarán la dirección de “flex”).
+                </p>
+        </div>
+    </body> -->
+    <head>
+        <title>Tarea HTML de Juanjo</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <!-- <div class="parent" style="display:block">
+            <div class = "box" id="one">One</div>
+            <div class = "box" id="two">Two</div>
+            <div class = "box" id="three">Three</div>
+            <div class = "box" id="four">Four</div>
+        </div>
+        
+        <div class="parent">
+            <div class = "box" id="one">One</div>
+            <div class = "box" id="two">Two</div>
+            <div class = "box" id="three">Three</div>
+            <div class = "box" id="four">Four</div>
+        </div>         -->
+        <div id="ejercicioSiete">
+            <div id="elementoUno" class="elementos"><span class="textoElemento"></span></div>
+            <div id="elementoDos" class="elementos"><span class="textoElemento"></span></div>
+            <div id="elementoTres" class="elementos"><span class="textoElemento"></span></div>
+            <div id="elementoCuatro" class="elementos"><span class="textoElemento"></span></div>
+          </div>
+          <div class="container">        
+    </body>
+</html>
+    

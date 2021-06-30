@@ -1,0 +1,64 @@
+/* #parent{
+    border: 2px black dotted;
+    display: inline-block
+}
+
+.box {
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#one {
+}
+
+#two {
+    background: green;
+
+    top:20px;
+    left: 20px;
+    position: absolute; 
+
+}
+
+#three {
+    
+}
+
+#four {
+    
+} 
+ */
+#ejercicioSiete {
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    position: relative;       
+    background-color: black;
+    display: flex;
+}
+ .elementos {
+ width: 150px;
+ height: 100px;
+ display: flex;
+ background-color: white;
+}
+
+#elementoUno {
+    border: 2px dashed green;
+}
+
+#elementoDos {
+    border: 2px dashed orange;
+}
+
+#elementoTres {
+    border: 2px dashed blue;
+}
+
+#elementoCuatro {
+    border: 2px dashed red;   
+}
